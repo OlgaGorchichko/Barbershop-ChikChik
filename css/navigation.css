@@ -16,18 +16,17 @@
 }
 
 @media (max-width: 560px) {
+    .navigation__list {
+        gap: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .navigation__link {
-        font-weight: 400;
         font-size: 12px;
-        line-height: 100%;
-        text-transform: uppercase;
     }
 
     .navigation__item {
         margin-bottom: 16px;
-    }
-
-    .navigation__list {
-        display: block;
     }
 }

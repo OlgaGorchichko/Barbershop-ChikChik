@@ -23,6 +23,7 @@ body {
     line-height: 1.2;
     color: #F6F3E3;
     background-color: #241D1C;
+    font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 img {

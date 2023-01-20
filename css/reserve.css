@@ -58,7 +58,7 @@
 
 @media (max-width: 768px) {
     .reserve {
-        padding: 62px 0 80px;
+        padding: 40px 0 80px;
     }
 
     .reserve__title {
@@ -70,8 +70,20 @@
         margin-bottom: 16px;
     }
 
+    .reserve__list {
+        margin-bottom: 40px;
+    }
+
+    .reserve__form-container {
+        margin-bottom: 32px;
+    }
+
+    .reserve__fieldset {
+        margin-bottom: 40px;
+    }
+
     .reserve__fieldset-sub {
-        margin-bottom: 20 px;
+        margin-bottom: 20px;
     }
 }
 
@@ -87,15 +99,16 @@
 
     .reserve__list {
         line-height: 120%;
-        font-size: 12px; 
+        font-size: 12px;
+        margin-bottom: 32px;
+        padding-left: 18px;
     }
 
-    .reserve__legend {
-        font-size: 16px;
-        margin-bottom: 16px;
+    .reserve__form-container {
+        margin-bottom: 24px;
     }
 
-    .reserve__fieldset-sub {
-        margin-bottom: 20 px;
+    .reserve__fieldset {
+        margin-bottom: 32px;
     }
 }
